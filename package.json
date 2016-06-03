@@ -1,0 +1,23 @@
+{
+  "name": "coding-practise",
+  "version": "0.1.0",
+  "description": "Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjmax75/coding-practise.git"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Sean Behan <behanj@gmail.com> (http://boxitoff.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjmax75/coding-practise/issues"
+  },
+  "homepage": "https://github.com/jjmax75/coding-practise#readme"
+}
