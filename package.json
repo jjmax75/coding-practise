@@ -2,9 +2,9 @@
   "name": "coding-practise",
   "version": "0.1.0",
   "description": "Sandbox",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/**/*.js | tap-dot"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/jjmax75/coding-practise/issues"
   },
-  "homepage": "https://github.com/jjmax75/coding-practise#readme"
+  "homepage": "https://github.com/jjmax75/coding-practise#readme",
+  "engines": {
+    "node": "4.4.5"
+  },
+  "devDependencies": {
+    "tap-dot": "1.0.5",
+    "tape": "4.5.1"
+  }
 }
