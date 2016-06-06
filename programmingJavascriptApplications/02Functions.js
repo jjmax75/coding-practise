@@ -31,4 +31,10 @@ const sideEffects = function sideEffects() {
 
 };
 
+const lambdas = function lambdas() {
+  let o = Object.create(Object.prototype);
+
+
+};
+
 module.exports = {sideEffects};
